@@ -15,7 +15,7 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/zaheer76644/react-sorcerer-take-home-test.git
-   ```
+   
 
 2. **Navigate to the project directory**:
 
