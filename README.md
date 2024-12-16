@@ -1,9 +1,11 @@
+Here’s an updated `README.md` to reflect the simpler folder structure with only `src` and `public` folders:
+
 ```markdown
-# React Sorcerer Project
+# React Frontend Project
 
 ## Overview
 
-This is the React frontend for a web application. It provides a responsive user interface.
+This is the frontend for a web application built using React. The project has a clean and simple structure with `src` for the application code and `public` for static assets.
 
 ---
 
@@ -15,7 +17,7 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/zaheer76644/react-sorcerer-take-home-test.git
-   
+   ```
 
 2. **Navigate to the project directory**:
 
@@ -35,20 +37,13 @@ Follow these steps to run the project locally:
    npm start
    ```
 
-5. Open your browser and go to `http://localhost:3000` to view the app.
-
----
-
-## Scripts
-
-- **`npm start`**: Start the development server.
-- **`npm run build`**: Create a production build.
-- **`npm test`**: Run tests (if applicable).
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
 ---
 
 ## Folder Structure
-```bash
+
+```
 project-folder/
 ├── public/
 │   ├── index.html  # Main HTML file
@@ -64,8 +59,31 @@ project-folder/
 ├── README.md       # Project documentation
 └── .gitignore      # Files to ignore in Git
 ```
-- **`/public`**: Contains static files such as index.html and images.
+
+- **`/public`**: Contains static files such as `index.html` and images.
 - **`/src`**: Contains all the React application code, including components and styles.
+
+---
+
+## Available Scripts
+
+Here are some commonly used scripts:
+
+- **`npm start`**: Runs the application in development mode.
+- **`npm run build`**: Builds the app for production.
+- **`npm test`**: Runs tests (if applicable).
+
+---
+
+## Build for Production
+
+To build the app for production:
+
+```bash
+npm run build
+```
+
+The production-ready files will be available in the `build/` folder.
 
 ---
 
@@ -78,8 +96,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For support, contact:  
-**Email**: your-email@example.com  
-**GitHub**: [Your Profile](https://github.com/your-profile)
+**Email**: zaheersamar143@gmail.com  
+**GitHub**: [Your Profile](https://github.com/zaheer76644)
 ```
 
-Replace `<your-repo-url>` and other placeholders with the relevant information. This version focuses on the basic steps to clone, install, and start the application.
+Replace placeholders like `https://github.com/zaheer76644/react-sorcerer-take-home-test.git` and `zaheersamar143@example.com` with your actual details. This version aligns perfectly with a React project containing only `src` and `public` directories.
