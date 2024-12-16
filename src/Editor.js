@@ -132,10 +132,11 @@ const MyEditor = () => {
             lineHeight: '25px'
         }
     };
+
     return (
         <div style={{ padding: "20px", fontFamily: "Arial" }}>
             <div style={{ position: "relative" }}>
-                <h1 style={{ display: 'flex', justifyContent: 'center' }}>Demo editor by Zaheer Shaikh</h1>
+                <h1 style={{ display: 'flex', justifyContent: 'center' }}>Demo editor by Zaheer</h1>
                 <button onClick={saveContent} style={{ backgroundColor: 'skyblue', padding: "7px 20px", fontSize: "16px", position: 'absolute', top: 0, right: 0, borderRadius: 5, color: 'black' }}>
                     Save
                 </button>
