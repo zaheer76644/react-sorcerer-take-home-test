@@ -1,9 +1,9 @@
 ```markdown
-# React Frontend Project
+# React Sorcerer Project
 
 ## Overview
 
-This is the React frontend for a web application. It provides a responsive user interface and communicates with the backend for dynamic data.
+This is the React frontend for a web application. It provides a responsive user interface.
 
 ---
 
@@ -14,7 +14,7 @@ Follow these steps to run the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/zaheer76644/react-sorcerer-take-home-test.git
    ```
 
 2. **Navigate to the project directory**:
@@ -48,12 +48,24 @@ Follow these steps to run the project locally:
 ---
 
 ## Folder Structure
-
-- **/src**: Application source code.
-  - **/components**: Reusable React components.
-  - **/pages**: Page-specific components.
-  - **/assets**: Static files (images, fonts, etc.).
-  - **/styles**: Stylesheets (CSS/SCSS).
+```bash
+project-folder/
+├── public/
+│   ├── index.html  # Main HTML file
+│   ├── favicon.ico # App favicon
+│   └── other-static-assets/
+├── src/
+│   ├── components/ # Reusable React components
+│   ├── App.js      # Main app component
+│   ├── index.js    # Entry point
+│   ├── styles/     # CSS/SCSS files (optional)
+│   └── utils/      # Utility functions (optional)
+├── package.json    # Project configuration and dependencies
+├── README.md       # Project documentation
+└── .gitignore      # Files to ignore in Git
+```
+- **`/public`**: Contains static files such as index.html and images.
+- **`/src`**: Contains all the React application code, including components and styles.
 
 ---
 
